@@ -1,0 +1,139 @@
+<!-- still must add the survery to the web app-->
+<html>
+<form action="https://cs-webapps.bu.edu/cgi-bin/util/formmailer.py">
+
+    <table>
+         <!--optional name text box-->
+        <tr>
+            <td>Name (Optional)</td>
+            <td><input type="text" id="name" name="name"></td>
+        </tr>
+
+         <!--Selecting a home town-->
+        <tr>
+            <td>Home Town</td>
+            <td><input type="text" id="town" name="town"></td>
+        </tr>
+
+        <!--Selecting a home state-->
+        <tr>
+            <td>State</td>
+            <td><select>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DC">District Of Columbia</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                </select></td>
+        </tr>
+
+        <!--Y/N to college or uni-->        
+        <tr>
+            <td>Have you ever attended a College or University?</td>
+            <td>
+                <input type="radio" id="yes" name="yes" value="yes"> YES<br>
+                <input type="radio" id="no" name="no" value="no"> NO<br>
+            </td>
+        </tr>
+
+        <!--Selecting degrees earned-->
+        <tr>
+            <td>Degrees Earned</td>
+            <td>
+                <input type="checkbox" id="HS" name="HS" value="HS"> High School Degree<br>
+                <input type="checkbox" id="AD" name="AD" value="AD"> Associate's Degree<br>
+                <input type="checkbox" id="BD" name="BD" value="BD"> Bachelor's Degree<br>
+                <input type="checkbox" id="Mas" name="Mas" value="Mas"> Master's Degree<br>
+                <input type="checkbox" id="Doc" name="Doc" value="Doc"> Doctorate<br>
+                <input type="checkbox" id="N/A" name="N/A" value="N/A"> None of the Above<br>
+            </td>
+        </tr>
+
+        <!--Selecting current schooling level-->
+        <tr>
+            <td>If you are currently a student, please indicate your current level.</td>
+            <td>
+                <input type="radio" id="HS" name="HS" value="HS"> High School Student<br>
+                <input type="radio" id="FR" name="FR" value="FR"> Freshman<br>
+                <input type="radio" id="SO" name="SO" value="SO"> Sophomore<br>
+                <input type="radio" id="JR" name="JR" value="JR"> Junior<br>
+                <input type="radio" id="SR" name="SR" value="SR"> Senior<br>
+                <input type="radio" id="GRAD" name="GRAD" value="GRAD"> Graduate Student<br>
+            </td>
+        </tr>
+
+        <!--Selecting the type of college-->
+        <tr>
+            <td>What type of University did you attend?</td>
+            <td>
+                <input type="checkbox" id="CC" name="CC" value="CC"> Community College<br>
+                <input type="checkbox" id="Private" name="Private" value="Private"> Private University/College<br>
+                <input type="checkbox" id="Public" name="Public" value="Public"> Public University/College<br>
+                <input type="checkbox" id="Online" name="VT" value="VT"> Vocational or Technical College<br>
+                <input type="checkbox" id="NA" name="NA" value="NA"> N/A<br>
+            </td>
+        </tr>
+
+        <!--Extra Comments about College-->
+        <tr>
+            <td>Why do you go to school?</td>
+            <td><textarea name="Why?" style="width:200px; height:200px;"></textarea></td>
+        </tr>
+
+    </table>
+
+
+    <input type="submit" name="submit">
+
+    <input type="hidden" name="mailto" id="smur@bu.edu">
+
+
+</form>
+</html>
+

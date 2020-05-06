@@ -1,0 +1,7 @@
+Assignment 15 is mini_fb in django
+
+will link to github later 
+UPLOADED TO GIT 5/2 5:24 PM
+
+Basic implementation of all profiles page
+
